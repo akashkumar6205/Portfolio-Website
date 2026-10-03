@@ -221,7 +221,7 @@ export const Hero = () => {
                   <img
                     src="/profile.jpg"
                     alt="Akash Kumar"
-                    className="w-full h-full object-cover object-center filter grayscale contrast-[1.05] hover:grayscale-0 transition-all duration-500 ease-out"
+                    className="w-full h-full object-cover object-center"
                     onError={(e) => {
                       // Fallback if local image not found
                       e.currentTarget.src = "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop";
