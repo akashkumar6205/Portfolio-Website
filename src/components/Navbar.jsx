@@ -43,17 +43,33 @@ export const Navbar = () => {
   }, []);
 
   const handleNavClick = (e, href) => {
-    e.preventDefault();
+    if (e) e.preventDefault();
     setMobileMenuOpen(false);
-    const targetEl = document.querySelector(href);
-    if (targetEl) {
-      const navHeight = 80;
-      const targetPosition = targetEl.getBoundingClientRect().top + window.pageYOffset - navHeight;
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      });
-    }
+
+    const targetId = href.startsWith('#') ? href.slice(1) : href;
+
+    // A small timeout ensures the mobile menu closure animation does not cancel touch scroll
+    setTimeout(() => {
+      if (targetId === 'home') {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+        return;
+      }
+
+      const targetEl = document.getElementById(targetId) || document.querySelector(href);
+      if (targetEl) {
+        const navHeight = 70;
+        const elementPosition = targetEl.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + (window.scrollY || window.pageYOffset) - navHeight;
+
+        window.scrollTo({
+          top: Math.max(0, offsetPosition),
+          behavior: 'smooth'
+        });
+      }
+    }, 100);
   };
 
   return (
@@ -174,10 +190,10 @@ export const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
+                  className={`py-2.5 px-3 rounded-lg text-sm font-medium transition-colors cursor-pointer touch-manipulation active:scale-[0.98] ${
                     activeSection === link.href.substring(1)
                       ? 'bg-stone-200/70 dark:bg-stone-800 text-stone-900 dark:text-white font-semibold'
-                      : 'text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white'
+                      : 'text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white active:bg-stone-200/50 dark:active:bg-stone-800/50'
                   }`}
                 >
                   {link.name}
