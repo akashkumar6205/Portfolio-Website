@@ -153,7 +153,7 @@ export const projectsData = [
     tagline: "Smarter Stays. Better Journeys",
     description:
       "An enterprise-ready project management and automation suite that powers distributed team workflows. Features real-time multi-user syncing via WebSockets, granular role-based permissions, and visual workflow builders.",
-    image: "src/image/Livora.png",
+    image: "/image/Livora.png",
     tags: [
       "HTML5",
       "CSS3",
@@ -192,7 +192,7 @@ export const projectsData = [
     description:
       "A modern, responsive, and interactive developer portfolio designed to showcase my technical skills, projects, achievements, certifications, and professional journey as a Computer Science and Engineering student.",
     image:
-      "src/image/portfolio.png",
+      "/image/portfolio.png",
     tags: [
       "React",
       "Tailwind CSS",
@@ -202,7 +202,7 @@ export const projectsData = [
     ],
     featured: true,
     github: "https://github.com/akashkumar6205/Portfolio-Website.git",
-    live: "",
+    live: "https://portfolio-website-blond-five-89.vercel.app/",
     
     architecture: {
       overview:
@@ -237,7 +237,7 @@ export const projectsData = [
     description:
       "DhruvSetu is an intelligent digital platform designed to improve the remote monitoring, management, and operational efficiency of India's Antarctic research stations, Maitri and Bharati.",
     image:
-      "src/image/SIH.png",
+      "/image/SIH.png",
     tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "JWT", "Three.js", "Postgress SQL", "GSAP"],
     featured: true,
     github: "https://github.com/akashkumar6205/SIH-2026.git",
