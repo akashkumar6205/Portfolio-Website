@@ -219,8 +219,8 @@ export const Hero = () => {
                 {/* Image container */}
                 <div className="relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-200 dark:bg-stone-800 border border-[#E6E3DC] dark:border-[#2A2A38]">
                   <img
-                    src="/profile.jpg"
-                    alt="Akash Kumar"
+                    src={personalInfo.profileImage || "/profile.jpg"}
+                    alt={personalInfo.name}
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {
                       // Fallback if local image not found
