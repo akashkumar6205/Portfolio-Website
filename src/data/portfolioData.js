@@ -153,7 +153,7 @@ export const projectsData = [
     tagline: "Smarter Stays. Better Journeys",
     description:
       "An enterprise-ready project management and automation suite that powers distributed team workflows. Features real-time multi-user syncing via WebSockets, granular role-based permissions, and visual workflow builders.",
-    image: "/image/Livora.png",
+    image: "public/image/Livora.png",
     tags: [
       "HTML5",
       "CSS3",
@@ -192,7 +192,7 @@ export const projectsData = [
     description:
       "A modern, responsive, and interactive developer portfolio designed to showcase my technical skills, projects, achievements, certifications, and professional journey as a Computer Science and Engineering student.",
     image:
-      "/image/Portfolio.png",
+      "public/image/Portfolio.png",
     tags: [
       "React",
       "Tailwind CSS",
@@ -237,7 +237,7 @@ export const projectsData = [
     description:
       "DhruvSetu is an intelligent digital platform designed to improve the remote monitoring, management, and operational efficiency of India's Antarctic research stations, Maitri and Bharati.",
     image:
-      "/image/SIH.png",
+      "public/image/SIH.png",
     tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "JWT", "Three.js", "Postgress SQL", "GSAP"],
     featured: true,
     github: "https://github.com/akashkumar6205/SIH-2026.git",
@@ -320,7 +320,7 @@ export const achievementsData = {
         "A 6-hour frontend development hackathon recognizing creativity, technical skills, and successful completion of the challenge.",
       badge: "Certificate of Excellence",
       category: "Frontend Development Hackathon",
-      certificateImage: "/image/WEBRUSH2026.png",
+      certificateImage: "public/image/WEBRUSH2026.png",
     },
     {
       title: "AI for Bharat Hackathon",
@@ -331,7 +331,7 @@ export const achievementsData = {
         "Built and submitted a qualified prototype using generative AI tools to solve real-world challenges for India.",
       badge: "Certificate of Participation",
       category: "AI / Generative AI Hackathon",
-      certificateImage: "/image/H2S.png",
+      certificateImage: "public/image/H2S.png",
     },
     {
       title: "Vibe2Ship – India's Biggest Vibe Coding Hackathon",
@@ -342,7 +342,7 @@ export const achievementsData = {
         "Participated in an open-source community, contributing to projects, collaborating with developers, and gaining hands-on experience throughout the program.",
       badge: "Certificate of Participation",
       category: "Vibe Coding Hackathon",
-      certificateImage: "/image/VIBE2SHIP.png",
+      certificateImage: "public/image/VIBE2SHIP.png",
     },
 
     {
@@ -354,7 +354,7 @@ export const achievementsData = {
         "Consistent problem solver in Data Structures, Dynamic Programming, Graph Theory, and Tree Traversal algorithms.",
       badge: "Certificate of Participation",
       category: "Open Source Program",
-      certificateImage: "/image/ECSOC.png",
+      certificateImage: "public/image/ECSOC.png",
     },
   ],
   certifications: [
