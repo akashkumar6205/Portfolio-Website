@@ -94,7 +94,7 @@ export const Navbar = () => {
           <div className="flex flex-col">
             <span className="leading-tight font-serif">Akash Kumar</span>
             <span className="text-[11px] font-mono font-normal text-stone-500 dark:text-stone-400 tracking-wider">
-              FULLSTACK • UX
+              FULLSTACK • UI/UX
             </span>
           </div>
         </a>

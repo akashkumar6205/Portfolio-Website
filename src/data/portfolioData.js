@@ -368,5 +368,15 @@ export const achievementsData = {
       icon: "NPTEL Online Certification",
       certificateImage: "src/image/NPTEL.png",
     },
+    {
+      title: "WebRush 2026",
+      issuer: "Frontend Arena",
+      issueDate: "September 20, 2026 ",
+      credentialId: "FA-P3T7VNHE",
+      skillsGained:
+        "A 6-hour frontend development hackathon recognizing creativity, technical skills, and successful completion of the challenge.",
+      icon: "Frontend Development Hackathon",
+      certificateImage: "src/image/WEBRUSH2026.png",
+    },
   ],
 };
