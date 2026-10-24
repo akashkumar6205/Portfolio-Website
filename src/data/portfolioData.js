@@ -192,7 +192,7 @@ export const projectsData = [
     description:
       "A modern, responsive, and interactive developer portfolio designed to showcase my technical skills, projects, achievements, certifications, and professional journey as a Computer Science and Engineering student.",
     image:
-      "/image/portfolio.png",
+      "/image/Portfolio.png",
     tags: [
       "React",
       "Tailwind CSS",
@@ -320,7 +320,7 @@ export const achievementsData = {
         "A 6-hour frontend development hackathon recognizing creativity, technical skills, and successful completion of the challenge.",
       badge: "Certificate of Excellence",
       category: "Frontend Development Hackathon",
-      certificateImage: "src/image/WEBRUSH2026.png",
+      certificateImage: "/image/WEBRUSH2026.png",
     },
     {
       title: "AI for Bharat Hackathon",
@@ -331,7 +331,7 @@ export const achievementsData = {
         "Built and submitted a qualified prototype using generative AI tools to solve real-world challenges for India.",
       badge: "Certificate of Participation",
       category: "AI / Generative AI Hackathon",
-      certificateImage: "src/image/H2S.png",
+      certificateImage: "/image/H2S.png",
     },
     {
       title: "Vibe2Ship – India's Biggest Vibe Coding Hackathon",
@@ -342,7 +342,7 @@ export const achievementsData = {
         "Participated in an open-source community, contributing to projects, collaborating with developers, and gaining hands-on experience throughout the program.",
       badge: "Certificate of Participation",
       category: "Vibe Coding Hackathon",
-      certificateImage: "src/image/VIBE2SHIP.png",
+      certificateImage: "/image/VIBE2SHIP.png",
     },
 
     {
@@ -354,7 +354,7 @@ export const achievementsData = {
         "Consistent problem solver in Data Structures, Dynamic Programming, Graph Theory, and Tree Traversal algorithms.",
       badge: "Certificate of Participation",
       category: "Open Source Program",
-      certificateImage: "src/image/ECSOC.png",
+      certificateImage: "/image/ECSOC.png",
     },
   ],
   certifications: [
@@ -366,7 +366,7 @@ export const achievementsData = {
       skillsGained:
         "Java Programming, Object-Oriented Programming (OOP), Java Collections Framework",
       icon: "NPTEL Online Certification",
-      certificateImage: "src/image/NPTEL.png",
+      certificateImage: "/image/NPTEL.png",
     },
     {
       title: "WebRush 2026",
@@ -376,7 +376,7 @@ export const achievementsData = {
       skillsGained:
         "A 6-hour frontend development hackathon recognizing creativity, technical skills, and successful completion of the challenge.",
       icon: "Frontend Development Hackathon",
-      certificateImage: "src/image/WEBRUSH2026.png",
+      certificateImage: "/image/WEBRUSH2026.png",
     },
   ],
 };
